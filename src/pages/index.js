@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Image, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Menu, Section } from "@quarkly/components";
+import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
 import { MdHelp } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
@@ -48,7 +48,10 @@ export default (() => {
 						therapies
 					</Override>
 					<Override slot="link-index">
-						contact
+						home
+					</Override>
+					<Override slot="link-therapies">
+						travels
 					</Override>
 				</Menu>
 				<Link href="#">
@@ -156,12 +159,50 @@ export default (() => {
 					icon={MdHelp}
 				/>
 				<Text as="h3" font="--headline3" margin="10px 0">
-					Is there more to yoga?
+					How can we connect?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+					Please write to me at{" "}
+					<Link href="#">
+						bhandari.r@rediffmail.com{" "}
+					</Link>
 				</Text>
 			</Box>
+		</Section>
+		<Section
+			padding="60px 0"
+			sm-padding="40px 0"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Stack color="--grey" font="--base" flex-wrap="wrap" align-items="center">
+				<StackItem flex-grow="1" md-width="100%">
+					<Text
+						as="h1"
+						margin="0px"
+						font="--headline1"
+						md-font="--headline2"
+						color="--dark"
+					>
+						Perseverant
+						<br />
+						Confident
+						<br />
+						Down to earth
+						<br />
+						Unconditionally supportive
+						<br />
+						Loyal
+					</Text>
+				</StackItem>
+				<StackItem md-width="100%">
+					<Text margin="0px" max-width="260px">
+						Dr. Achala Arya.
+					</Text>
+				</StackItem>
+				<StackItem md-width="100%" />
+			</Stack>
 		</Section>
 		<Link
 			font={"--capture"}
