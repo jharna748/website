@@ -42,32 +42,14 @@ export default (() => {
 						home
 					</Override>
 					<Override slot="link-404">
-						therapies
+						testimonials
 					</Override>
 					<Override slot="link-therapies">
-						travels & testimonials
+						therapies
 					</Override>
 				</Menu>
 			</Box>
 		</Section>
-		<Stack>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-					{"  "}asana - pranayama
-				</Text>
-				{"    "}
-			</StackItem>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-					{"            "}Second Item{"\n        "}
-				</Text>
-				{"    "}
-			</StackItem>
-		</Stack>
 		<Section
 			padding="60px 0"
 			sm-padding="40px 0"
@@ -78,7 +60,7 @@ export default (() => {
 			flex-direction="column"
 		>
 			<Section
-				background="--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-17%20at%202.54.44%20PM.jpeg?v=2021-01-18T05:23:18.490Z) center/cover"
+				background="--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.58.43%20PM.jpeg?v=2021-01-17T07:26:15.986Z) center/cover"
 				padding="64px 0"
 				sm-padding="40px 0"
 				color="--light"
