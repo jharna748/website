@@ -103,10 +103,20 @@ export default (() => {
 				<Text as="h3" font="--headline3" margin="10px 0">
 					What are my educational qualifications?
 				</Text>
-				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					M.A. in Yoga and Naturopathy g) Professional Qualification M.A. in Yoga/ Master of Yoga Education; M.A. in Economics; PG Diploma in Landscape and Gardening Architecture from MDS University, Ajmer (1997); 3 years Diploma in Naturopathy (NDDY) from Gandhi National Academy of Naturopathy, Delhi
+				<Text as="p" font="--base" margin="10px 0" color="--green">
+					M.A. in Yoga/ Master of Yoga Education; M.A. in Economics;{" "}
 					<br />
-					Other Qualifications: All India Karate Championship (2000); Certified Reiki Master; Pranic Healer; Participation certificate of National Yoga Conference organized at The Doon School, Dehradun (2013); Training from School of Ayurveda & Panchakarma (2012).
+					PG Diploma in Landscape and Gardening Architecture from MDS University, Ajmer (1997);
+					<br />
+					Diploma in Naturopathy (NDDY) from Gandhi National Academy of Naturopathy, Delhi;
+					<br />
+					{" "}All India Karate Championship (2000);{" "}
+					<br />
+					Certified Reiki Master; Pranic Healer;{" "}
+					<br />
+					Participation certificate of National Yoga Conference organized at The Doon School, Dehradun (2013);{" "}
+					<br />
+					Training from School of Ayurveda & Panchakarma (2012)
 				</Text>
 			</Box>
 			<Box
@@ -128,8 +138,10 @@ export default (() => {
 				<Text as="h3" font="--headline3" margin="10px 0">
 					Why should we connect?
 				</Text>
-				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					It all begins with inspiration. I'm an avid learner and I love interacting with people of diverse ages and backgrounds. Trust my testimonials to know more. I'd love to meet you and see you for yoga everyday on Zoom. I'm a traveller, trekker, cyclist and always looking for good company around.
+				<Text as="p" font="--base" margin="10px 0" color="--indigo">
+					It all begins with inspiration. I'm an avid learner and I love interacting with people of diverse ages and backgrounds, especially children and older people. Trust my testimonials to know more.
+					<br />
+					{" "}I'm a traveller, trekker, cyclist and always looking for good company around.
 				</Text>
 			</Box>
 			<Box
@@ -151,23 +163,23 @@ export default (() => {
 				<Text as="h3" font="--headline3" margin="10px 0">
 					How can we connect?
 				</Text>
+				<Text as="p" font="--base" margin="10px 0" color="--primary">
+					{" "}I am happy to meet you and see you for yoga everyday on Zoom. Please write to me at{" "}
+					<Link
+						href="#"
+						data-q-widget-type="PRIMITIVE"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						r
+					</Link>
+					ituyoga@gmail.com
+				</Text>
 			</Box>
-			<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-				Please write to me at{" "}
-				<Link
-					href="#"
-					data-q-widget-type="PRIMITIVE"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-				>
-					r
-				</Link>
-				ituyoga@gmail.com
-			</Text>
 		</Section>
 		<Section
 			padding="60px 0"
@@ -183,7 +195,7 @@ export default (() => {
 						margin="0px"
 						font="--headline2"
 						md-font="--headline2"
-						color="--primary"
+						color="--indigo"
 					>
 						Perseverant
 						<br />
