@@ -51,12 +51,12 @@ export default (() => {
 						home
 					</Override>
 					<Override slot="link-therapies">
+						testimonials & travels
+					</Override>
+					<Override slot="link-travels">
 						travels
 					</Override>
 				</Menu>
-				<Link href="#">
-					testimonials
-				</Link>
 			</Box>
 		</Section>
 		<Image width="64px" height="64px" />
@@ -104,12 +104,9 @@ export default (() => {
 					What are my educational qualifications?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					I'm a full-time yoga teacher at Mayo College Girls School (MCGS), Ajmer.
+					M.A. in Yoga and Naturopathy g) Professional Qualification M.A. in Yoga/ Master of Yoga Education; M.A. in Economics; PG Diploma in Landscape and Gardening Architecture from MDS University, Ajmer (1997); 3 years Diploma in Naturopathy (NDDY) from Gandhi National Academy of Naturopathy, Delhi
 					<br />
-					<br />
-					Educational Qualifications: M.A. in Yoga and Naturopathy g) Professional Qualification M.A. in Yoga/ Master of Yoga Education; M.A. in Economics; PG Diploma in Landscape and Gardening Architecture from MDS University, Ajmer (1997); 3 years Diploma in Naturopathy (NDDY) from Gandhi National Academy of Naturopathy, Delhi
-					<br />
-					Other Qualifications: All India Karate Championship (2000); Certified Reiki Master; Pranic Healer; Participation certificate of National Yoga Conference organized at The Doon School, Dehradun (2013); Training from School of Ayurveda & Panchakarma (2012).{"\n\n"}
+					Other Qualifications: All India Karate Championship (2000); Certified Reiki Master; Pranic Healer; Participation certificate of National Yoga Conference organized at The Doon School, Dehradun (2013); Training from School of Ayurveda & Panchakarma (2012).
 				</Text>
 			</Box>
 			<Box
