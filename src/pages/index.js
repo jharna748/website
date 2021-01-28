@@ -45,13 +45,13 @@ export default (() => {
 					<Override slot="link-active" color="--primary" />
 					<Override slot="item" padding="6px" />
 					<Override slot="link-404">
-						therapies
+						testimonials
 					</Override>
 					<Override slot="link-index">
 						home
 					</Override>
 					<Override slot="link-therapies">
-						testimonials & travels
+						therapies
 					</Override>
 					<Override slot="link-travels">
 						travels
