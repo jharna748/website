@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Icon, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -50,33 +50,6 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Section
-			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.58.43%20PM.jpeg?v=2021-01-17T07:26:15.986Z) center/cover"
-			padding="64px 0"
-			sm-padding="40px 0"
-			color="--light"
-			font="--base"
-		>
-			<Stack>
-				<StackItem width="75%" lg-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
-						therapies
-					</Text>
-					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
-						yoga is for everybody
-						<br />
-						and everything.
-					</Text>
-				</StackItem>
-			</Stack>
-			<Box text-align="center" margin="96px 0 0 0">
-				<Text margin="8px 0" text-transform="uppercase">
-					therapies
-				</Text>
-				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
-			</Box>
-		</Section>
 		<Stack>
 			{"    "}
 			<StackItem width="50%" display="flex">
@@ -104,51 +77,126 @@ export default (() => {
 			display="flex"
 			flex-direction="column"
 		>
-			<Text
+			<Section
+				background="--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-17%20at%202.54.44%20PM.jpeg?v=2021-01-18T05:23:18.490Z) center/cover"
+				padding="64px 0"
+				sm-padding="40px 0"
+				color="--light"
 				font="--base"
-				text-transform="uppercase"
-				letter-spacing="1px"
-				max-width="850px"
-				color="--grey"
-				margin="0px"
 			>
-				Eyebrow
-			</Text>
+				<Stack>
+					<StackItem width="75%" lg-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
+							therapies
+						</Text>
+						<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+							yoga is for everybody
+							<br />
+							and everything.
+						</Text>
+					</StackItem>
+				</Stack>
+				<Box text-align="center" margin="96px 0 0 0">
+					<Text margin="8px 0" text-transform="uppercase">
+						therapies
+					</Text>
+					<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
+				</Box>
+			</Section>
 			<Text
 				as="h1"
 				margin="8px 0px 32px"
-				font="--headline1"
+				font="--headline2"
 				md-font="--headline2"
-				color="--dark"
+				color="--green"
 				max-width="850px"
 			>
-				Heading
+				Asanas are for
+				<br />
+				relaxation & for strength-building,
+				<br />
+				building focus & motivation,
+				<br />
+				treating anxiety and depression,
+				<br />
+				building a better body-image through weight loss or weight gain.
+				<br />
 			</Text>
-			<Stack margin-top="auto" color="--grey" font="--base">
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						Asanas and pranayama can help relieve muscles tensions, improve focus, concentration, improve moods, treat anxiety, depression, all with breathing and physical exercises.
+		</Section>
+		<Section
+			background="--color-lightD1 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(3).jpg?v=2021-01-28T08:22:42.895Z) center/cover no-repeat"
+			padding="64px 0"
+			sm-padding="40px 0"
+			color="--primary"
+			font="--base"
+		>
+			<Stack>
+				<StackItem width="75%" lg-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
+						panchkarma
 					</Text>
-				</StackItem>
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						Panchkarma therapies are for cleansing.{" "}
-						<br />
-						I have also learnt various naturopathic healing techniques, to give you an example, chavutti massage..is a popular Kerala{" "}
-					</Text>
-				</StackItem>
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
-					</Text>
-				</StackItem>
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
+					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+						panchkarma is for cleansing.
 					</Text>
 				</StackItem>
 			</Stack>
 		</Section>
+		<Section
+			background="--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.47.34%20PM.jpeg?v=2021-01-18T05:25:36.346Z) center/cover"
+			padding="64px 0"
+			sm-padding="40px 0"
+			color="--light"
+			font="--base"
+		>
+			<Stack>
+				<StackItem width="75%" lg-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
+						reiki
+					</Text>
+					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+						reiki is for healing.
+					</Text>
+				</StackItem>
+			</Stack>
+			<Box text-align="center" margin="96px 0 0 0">
+				<Text margin="8px 0" text-transform="uppercase">
+					Who we are
+				</Text>
+				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
+			</Box>
+		</Section>
+		<Section
+			background="--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(3).jpg?v=2021-01-28T08:22:42.895Z) center/cover"
+			padding="64px 0"
+			sm-padding="40px 0"
+			color="--light"
+			font="--base"
+		>
+			<Stack>
+				<StackItem width="75%" lg-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
+						Excellence in everything
+					</Text>
+					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+						Striving for perfection in everything we do. Unparalleled service for everyone.
+					</Text>
+					<Image width="64px" height="64px" src="https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(3).jpg?v=2021-01-28T08:22:42.895Z" />
+				</StackItem>
+			</Stack>
+			<Box text-align="center" margin="96px 0 0 0">
+				<Text margin="8px 0" text-transform="uppercase">
+					Who we are
+				</Text>
+				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
+			</Box>
+		</Section>
+		<Text>
+			Some text
+		</Text>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

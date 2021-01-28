@@ -60,7 +60,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Image width="64px" height="64px" />
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.47.34%20PM.jpeg?v=2021-01-18T05:25:36.346Z) center/cover">
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-17%20at%202.54.44%20PM.jpeg?v=2021-01-18T05:23:18.490Z) center/cover" position="static">
 			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text
 					as="h4"
@@ -72,18 +72,11 @@ export default (() => {
 				>
 					About me
 				</Text>
-				<Text as="h2" font="--headline2" margin="0 0 12px 0">
+				<Text as="h2" font="--headline3" margin="0 0 12px 0" color="#117eeb">
 					yoga and more
 				</Text>
 				<Text font="--base">
 					I'm a full-time yoga teacher at Mayo College Girls School (MCGS), Ajmer.
-					<br />
-					<br />
-					Educationally, I completed my M.A. in Yoga/ Master of Yoga Education; long ago. I've learned and practised various other therapies. I have a diploma in landscape and gardening...{" "}
-					<br />
-					Scroll down to read more
-					<br />
-					I can teach you reiki, karate, naturopathic healing.
 				</Text>
 			</Box>
 		</Section>
@@ -161,13 +154,23 @@ export default (() => {
 				<Text as="h3" font="--headline3" margin="10px 0">
 					How can we connect?
 				</Text>
-				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					Please write to me at{" "}
-					<Link href="#">
-						bhandari.r@rediffmail.com{" "}
-					</Link>
-				</Text>
 			</Box>
+			<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
+				Please write to me at{" "}
+				<Link
+					href="#"
+					data-q-widget-type="PRIMITIVE"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					r
+				</Link>
+				ituyoga@gmail.com
+			</Text>
 		</Section>
 		<Section
 			padding="60px 0"
@@ -181,9 +184,9 @@ export default (() => {
 					<Text
 						as="h1"
 						margin="0px"
-						font="--headline1"
+						font="--headline2"
 						md-font="--headline2"
-						color="--dark"
+						color="--primary"
 					>
 						Perseverant
 						<br />
