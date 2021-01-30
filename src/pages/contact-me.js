@@ -128,7 +128,7 @@ export default (() => {
 						<Text as="h3" font="--headline3" margin="0 0 20px 0">
 							Leave us message
 						</Text>
-						<Formspree>
+						<Formspree endpoint="https://formspree.io/f/xgepqwbl" completeText="Thank you. Your message has been received." errorMessage="Something went wrong. Please try again.">
 							<Stack gap="16px">
 								<StackItem width="100%">
 									<Override slot="StackItemContent" flex-direction="column" />

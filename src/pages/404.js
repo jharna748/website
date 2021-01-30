@@ -75,6 +75,42 @@ Unconditionally supportive{"\n"}
 				</Text>
 			</Box>
 		</Section>
+		<Section
+			background-color="--dark"
+			text-align="center"
+			padding="32px 0"
+			color="#ffffff"
+			background="#ffffff"
+		>
+			<Menu
+				display="flex"
+				justify-content="center"
+				font="--lead"
+				font-weight="700"
+				margin="-6px 0 16px"
+				md-flex-direction="column"
+				md-align-items="center"
+			>
+				<Override slot="link" text-decoration="none" color="--green" padding="6px 12px" />
+				<Override slot="link-active" color="--primary" />
+				<Override slot="item" padding="6px 0px" />
+				<Override slot="link-therapies">
+					therapies
+				</Override>
+				<Override slot="link-index">
+					home
+				</Override>
+			</Menu>
+			<Link
+				href="mailto:hello@company.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--grey"
+				hover-color="--primary"
+			>
+				rituyoga08@gmail.com
+			</Link>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
