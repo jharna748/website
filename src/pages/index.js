@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Image, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -59,24 +59,13 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Image width="64px" height="64px" />
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-17%20at%202.54.44%20PM.jpeg?v=2021-01-18T05:23:18.490Z) center/cover" position="static">
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/ritu%20ji.jpeg?v=2021-01-30T06:51:05.642Z) center/cover" position="static">
 			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
-				<Text
-					as="h4"
-					font="--base"
-					color="--grey"
-					letter-spacing="1px"
-					text-transform="uppercase"
-					margin="6px 0"
-				>
-					About me
-				</Text>
-				<Text as="h2" font="--headline3" margin="0 0 12px 0" color="#117eeb">
+				<Text as="h2" font="--headline2" margin="0 0 12px 0" color="#db11eb">
 					yoga and more
 				</Text>
-				<Text font="--base">
-					I'm a full-time yoga teacher at Mayo College Girls School (MCGS), Ajmer.
+				<Text font="--headline3" color="#0873dd">
+					asanas and pranayama bring  oneness of body and mind.
 				</Text>
 			</Box>
 		</Section>
@@ -193,7 +182,7 @@ export default (() => {
 					<Text
 						as="h1"
 						margin="0px"
-						font="--headline2"
+						font="--headline3"
 						md-font="--headline2"
 						color="--indigo"
 					>
@@ -209,8 +198,14 @@ export default (() => {
 					</Text>
 				</StackItem>
 				<StackItem md-width="100%">
-					<Text margin="0px" max-width="260px">
-						Dr. Achala Arya.
+					<Text
+						margin="0px"
+						max-width="260px"
+						color="#0a69ed"
+						font="--headline3"
+						text-decoration-line="underline"
+					>
+						Dr. Achala Arya
 					</Text>
 				</StackItem>
 				<StackItem md-width="100%" />
