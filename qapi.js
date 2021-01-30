@@ -30,6 +30,9 @@ export default {
 	"projectType": "gatsby",
 	"site": {
 		"styles": {},
-		"seo": {}
+		"seo": {
+			"title": "Ritu Bhandari",
+			"description": "Yoga Teacher's website"
+		}
 	}
 }

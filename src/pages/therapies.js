@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -9,9 +9,9 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"therapies"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Ritu Bhandari
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"Yoga Teacher's website"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section>
@@ -23,7 +23,13 @@ export default (() => {
 				flex-direction="row"
 				md-flex-direction="column"
 			>
-				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
+				<Text
+					margin="0"
+					md-margin="0px 0 20px 0"
+					text-align="left"
+					font="--lead"
+					color="#6e09ed"
+				>
 					Ritu Bhandari
 				</Text>
 				<Menu
@@ -65,6 +71,29 @@ export default (() => {
 				display="flex"
 				flex-direction="column"
 			>
+				<Section padding="100px 0" sm-padding="40px 0">
+					<Override slot="SectionContent" align-items="center" />
+					<Text
+						as="h2"
+						font="--headline2"
+						md-font="--headline2"
+						margin="20px 0 0 0"
+						color="#1bbbf3"
+					>
+						asanas & pranayama
+					</Text>
+					<Text as="p" font="--headline3" margin="20px 0 0 0" color="#bc01ff">
+						corrects poor posture,
+						<br />
+						builds your strength
+						<br />
+						builds focus & motivation,
+						<br />
+						treats anxiety & depression,
+						<br />
+						builds a better body-image.
+					</Text>
+				</Section>
 				<Section
 					background="--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.58.43%20PM.jpeg?v=2021-01-17T07:26:15.986Z) center/cover"
 					padding="64px 0"
@@ -86,66 +115,44 @@ export default (() => {
 						</StackItem>
 					</Stack>
 				</Section>
+				<Stack>
+					<StackItem width="75%" lg-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
+							panchkarma
+						</Text>
+						<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+							panchkarma is for cleansing, detox and purification.
+						</Text>
+						<Text>
+							Ayurveda and panchkarma teach that the balance of three subtle energies, vata, pitta, and kapha, maintain health.
+these energies account for all forms of matter (kapha), the force and direction they move (vata), and the transformations they go through (pita).
+ayurveda brings these forces into harmony to promote physical, emotional and spiritual growth.
+							<br />
+							<br />
+							<br />
+							Panchkarma is based on the theory that the whole universe is composed of the five elements - air, water, earth, fire and ether (sky).
+purification method for fleshing out of the stagnant and abnormally accumulated metabolites and endotoxins, thereby making system clean and fresh...this is a detoxification treatment..................{" "}
+						</Text>
+					</StackItem>
+				</Stack>
 			</Section>
-			<Stack>
-				<StackItem width="75%" lg-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
-						panchkarma
-					</Text>
-					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
-						panchkarma is for cleansing.
-					</Text>
-				</StackItem>
-			</Stack>
-		</Section>
-		<Section
-			background="--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.47.34%20PM.jpeg?v=2021-01-18T05:25:36.346Z) center/cover"
-			padding="64px 0"
-			sm-padding="40px 0"
-			color="--light"
-			font="--base"
-		>
-			<Stack>
-				<StackItem width="75%" lg-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
-						reiki
-					</Text>
-					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
-						reiki is for healing.
-					</Text>
-				</StackItem>
-			</Stack>
-		</Section>
-		<Section padding="100px 0" sm-padding="40px 0">
-			<Override slot="SectionContent" align-items="center" />
-			<Text
-				as="h2"
-				font="--headline2"
-				md-font="--headline2"
-				margin="20px 0 0 0"
-				color="#1bbbf3"
+			<Section
+				background="--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.47.34%20PM.jpeg?v=2021-01-18T05:25:36.346Z) center/cover"
+				padding="64px 0"
+				sm-padding="40px 0"
+				color="--light"
+				font="--base"
 			>
-				asana & pranayama
-			</Text>
-			<Text as="p" font="--headline3" margin="20px 0 0 0" color="#bc01ff">
-				correct poor posture,
-				<br />
-				build your strength
-				<br />
-				build focus & motivation,
-				<br />
-				treat anxiety & depression,
-				<br />
-				build a better body-image.
-				<br />
-				<br />
-				{"    "}...relax and meditate...
-			</Text>
-			<Button font="--lead" margin="20px">
-				Contact me to know more.
-			</Button>
+				<Stack>
+					<StackItem width="75%" lg-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+							rituyoga08@gmail.com
+						</Text>
+					</StackItem>
+				</Stack>
+			</Section>
 		</Section>
 		<Link
 			font={"--capture"}
