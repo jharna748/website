@@ -50,7 +50,7 @@ export default (() => {
 			padding="100px 0"
 			sm-padding="40px 0"
 			position="relative"
-			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1547619292-240402b5ae5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)"
+			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(5).jpg?v=2021-01-28T08:21:59.647Z)"
 		>
 			<Stack>
 				<StackItem width="50%" md-width="100%">
@@ -69,11 +69,12 @@ export default (() => {
 							left="0"
 							category="md"
 							icon={MdLocationOn}
+							color="#037bf2"
 						/>
-						<Text as="h4" margin="6px 0" font="--base">
+						<Text as="h4" margin="6px 0" font="--base" color="#037bf2">
 							My hometown and city where I live
 						</Text>
-						<Text as="p" margin="6px 0" font="--headline3">
+						<Text as="p" margin="6px 0" font="--headline3" color="#ed0ab4">
 							Ajmer, Rajasthan
 						</Text>
 					</Box>
@@ -91,12 +92,13 @@ export default (() => {
 							left="0"
 							category="md"
 							icon={MdEmail}
+							color="#037bf2"
 						/>
-						<Text as="h4" margin="6px 0" font="--base">
+						<Text as="h4" margin="6px 0" font="--base" color="#037bf2">
 							Email us
 						</Text>
 						<Text as="p" margin="6px 0" font="--headline3">
-							<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
+							<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--green">
 								rituyoga08@gmail.com
 							</Link>
 						</Text>
@@ -109,11 +111,12 @@ export default (() => {
 							left="0"
 							category="md"
 							icon={MdPhone}
+							color="#037bf2"
 						/>
-						<Text as="h4" margin="6px 0" font="--base">
+						<Text as="h4" margin="6px 0" font="--base" color="#037bf2">
 							Call us
 						</Text>
-						<Text as="p" margin="6px 0" font="--headline3">
+						<Text as="p" margin="6px 0" font="--headline3" color="#f00df0">
 							+91 9828253871
 						</Text>
 					</Box>
@@ -124,10 +127,10 @@ export default (() => {
 						padding="56px 48px"
 						margin="0 0 0 auto"
 						md-max-width="100%"
-						background="--color-primary"
+						background="--color-purple"
 					>
 						<Text as="h3" font="--headline3" margin="0 0 20px 0">
-							Leave us message
+							leave us a message:
 						</Text>
 						<Formspree endpoint="https://formspree.io/f/xgepqwbl" completeText="Thank you. Your message has been received." errorMessage="Something went wrong. Please try again.">
 							<Stack gap="16px">
@@ -153,7 +156,7 @@ export default (() => {
 									<Input as="textarea" rows="4" width="100%" name="message" />
 								</StackItem>
 								<StackItem width="100%">
-									<Button background="--color-dark">
+									<Button background="--color-primary">
 										Send
 									</Button>
 								</StackItem>
