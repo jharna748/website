@@ -5,7 +5,8 @@ import { createGlobalStyle } from "styled-components";
 const pageStyles = {
     "404": {},
     "index": {},
-    "therapies": {}
+    "therapies": {},
+    "contact-me": {}
 };
 
 const PageStyles = createGlobalStyle`

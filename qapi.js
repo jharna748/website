@@ -7,7 +7,8 @@ export default {
 			"children": [
 				"6003de9bdaacc2001e8f7c5e",
 				"600515daae0c05001e8790f7",
-				"6003de9bdaacc2001e8f7c5c"
+				"6003de9bdaacc2001e8f7c5c",
+				"60155ecf71e66d001efafe3b"
 			]
 		},
 		"6003de9bdaacc2001e8f7c5c": {
@@ -24,6 +25,11 @@ export default {
 			"id": "600515daae0c05001e8790f7",
 			"pageUrl": "therapies",
 			"name": "therapies"
+		},
+		"60155ecf71e66d001efafe3b": {
+			"id": "60155ecf71e66d001efafe3b",
+			"pageUrl": "contact-me",
+			"name": "contact me"
 		}
 	},
 	"mode": "production",

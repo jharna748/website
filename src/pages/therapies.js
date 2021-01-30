@@ -180,11 +180,48 @@ export default (() => {
 					<StackItem width="75%" lg-width="100%">
 						<Override slot="StackItemContent" flex-direction="column" />
 						<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
-							rituyoga08@gmail.com
+							reiki is for healing.
 						</Text>
 					</StackItem>
 				</Stack>
 			</Section>
+		</Section>
+		<Section
+			background-color="--dark"
+			text-align="center"
+			padding="32px 0"
+			color="#000000"
+			background="#ffffff"
+		>
+			<Menu
+				display="flex"
+				justify-content="center"
+				font="--lead"
+				font-weight="700"
+				margin="-6px 0 16px"
+				md-flex-direction="column"
+				md-align-items="center"
+				color="#b03030"
+			>
+				<Override slot="link" text-decoration="none" color="--primary" padding="6px 12px" />
+				<Override slot="link-active" color="--primary" />
+				<Override slot="item" padding="6px 0px" color="#130303" />
+				<Override slot="link-index">
+					home
+				</Override>
+				<Override slot="link-therapies">
+					therapies
+				</Override>
+			</Menu>
+			<Link
+				href="mailto:hello@company.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--grey"
+				hover-color="--primary"
+			>
+				hello@company.com
+			</Link>
 		</Section>
 		<Link
 			font={"--capture"}
