@@ -1,10 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Button, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
-import { MdHelp } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -59,158 +58,101 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/ritu%20ji.jpeg?v=2021-01-30T06:51:05.642Z) center/cover" position="static">
-			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
-				<Text as="h2" font="--headline2" margin="0 0 12px 0" color="#db11eb">
-					yoga and more
-				</Text>
-				<Text font="--headline3" color="#0873dd">
-					asanas and pranayama bring  oneness of body and mind.
-				</Text>
-			</Box>
-		</Section>
-		<Section color="--dark">
-			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
-				Q&A
-			</Text>
-			<Box
-				margin="36px 0 0 0"
-				padding="0 0 0 54px"
-				sm-padding="54px 0 0 0"
-				position="relative"
-				max-width="800px"
-			>
-				<Icon
-					position="absolute"
-					top="0"
-					left="0"
-					size="36px"
-					color="--primary"
-					category="md"
-					icon={MdHelp}
-				/>
-				<Text as="h3" font="--headline3" margin="10px 0">
-					What are my educational qualifications?
-				</Text>
-				<Text as="p" font="--base" margin="10px 0" color="--green">
-					M.A. in Yoga/ Master of Yoga Education; M.A. in Economics;{" "}
-					<br />
-					PG Diploma in Landscape and Gardening Architecture from MDS University, Ajmer (1997);
-					<br />
-					Diploma in Naturopathy (NDDY) from Gandhi National Academy of Naturopathy, Delhi;
-					<br />
-					{" "}All India Karate Championship (2000);{" "}
-					<br />
-					Certified Reiki Master; Pranic Healer;{" "}
-					<br />
-					Participation certificate of National Yoga Conference organized at The Doon School, Dehradun (2013);{" "}
-					<br />
-					Training from School of Ayurveda & Panchakarma (2012)
-				</Text>
-			</Box>
-			<Box
-				margin="36px 0 0 0"
-				padding="0 0 0 54px"
-				sm-padding="54px 0 0 0"
-				position="relative"
-				max-width="800px"
-			>
-				<Icon
-					position="absolute"
-					top="0"
-					left="0"
-					size="36px"
-					color="--primary"
-					category="md"
-					icon={MdHelp}
-				/>
-				<Text as="h3" font="--headline3" margin="10px 0">
-					Why should we connect?
-				</Text>
-				<Text as="p" font="--base" margin="10px 0" color="--indigo">
-					It all begins with inspiration. I'm an avid learner and I love interacting with people of diverse ages and backgrounds, especially children and older people. Trust my testimonials to know more.
-					<br />
-					{" "}I'm a traveller, trekker, cyclist and always looking for good company around.
-				</Text>
-			</Box>
-			<Box
-				margin="36px 0"
-				padding="0 0 0 54px"
-				sm-padding="54px 0 0 0"
-				position="relative"
-				max-width="800px"
-			>
-				<Icon
-					position="absolute"
-					top="0"
-					left="0"
-					size="36px"
-					color="--primary"
-					category="md"
-					icon={MdHelp}
-				/>
-				<Text as="h3" font="--headline3" margin="10px 0">
-					How can we connect?
-				</Text>
-				<Text as="p" font="--base" margin="10px 0" color="--primary">
-					{" "}I am happy to meet you and see you for yoga everyday on Zoom. Please write to me at{" "}
-					<Link
-						href="#"
-						data-q-widget-type="PRIMITIVE"
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-					>
-						r
-					</Link>
-					ituyoga@gmail.com
-				</Text>
-			</Box>
-		</Section>
-		<Section
-			padding="60px 0"
-			sm-padding="40px 0"
-			background="--color-light"
-			display="flex"
-			flex-direction="column"
-		>
-			<Stack color="--grey" font="--base" flex-wrap="wrap" align-items="center">
-				<StackItem flex-grow="1" md-width="100%">
+		<Section padding="140px 0" sm-padding="40px 0" position="static">
+			<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/ritu%20ji.jpeg?v=2021-01-30T06:51:05.642Z) center/cover">
+				<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 					<Text
-						as="h1"
-						margin="0px"
-						font="--headline3"
-						md-font="--headline2"
-						color="--indigo"
+						as="h4"
+						font="--base"
+						color="--grey"
+						letter-spacing="1px"
+						text-transform="uppercase"
+						margin="6px 0"
 					>
-						Perseverant
-						<br />
-						Confident
-						<br />
-						Down to earth
-						<br />
-						Unconditionally supportive
-						<br />
-						Loyal
+						About me
 					</Text>
-				</StackItem>
-				<StackItem md-width="100%">
+					<Text as="h2" font="--headline2" margin="0 0 12px 0" color="#f218bc">
+						Yoga to attain excellence
+					</Text>
+					<Text font="--base" color="#1175da">
+						All-round fitness is about flexibility, speed, stamina, strength and power. It is also about motivation, focus, concentration and alertness. Yoga helps in achieveing emotional, mental and physical stability and tranquility in life.
+					</Text>
+				</Box>
+			</Section>
+			<Section color="--dark" background="linear-gradient(0deg,rgba(0,0,0,0) 100%,#ffffff 100%),rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(3).jpg?v=2021-01-28T08:22:42.895Z) 0% 0% /auto repeat scroll padding-box" opacity="0.7" />
+			<Section
+				padding="60px 0"
+				sm-padding="40px 0"
+				background="--color-light"
+				display="flex"
+				flex-direction="column"
+			>
+				<Box
+					margin="36px 0 0 0"
+					padding="0 0 0 54px"
+					sm-padding="54px 0 0 0"
+					position="relative"
+					max-width="800px"
+				>
+					<Text as="p" font="--headline3" margin="10px 0" color="--orange">
+						I love interacting with people of diverse ages and backgrounds, especially children and older people.{" "}
+						<br />
+						I'm also a traveller, trekker, cyclist and always looking for good company around.
+					</Text>
+				</Box>
+			</Section>
+		</Section>
+		<Section background="--color-darkL2" padding="64px 0" sm-padding="40px 0">
+			<Stack>
+				<StackItem width="50%" lg-width="100%">
+					<Override
+						slot="StackItemContent"
+						color="--dark"
+						padding="98px 64px"
+						background="--color-light"
+						flex-direction="column"
+					/>
 					<Text
-						margin="0px"
-						max-width="260px"
-						color="#0a69ed"
-						font="--headline3"
-						text-decoration-line="underline"
+						as="h4"
+						margin="12px 0"
+						font="--base"
+						color="--grey"
+						letter-spacing="1px"
+						text-transform="uppercase"
 					>
-						Dr. Achala Arya
+						yoga and more...
 					</Text>
+					<Text
+						as="h2"
+						margin="12px 0"
+						font="--headline2"
+						md-font="--headline3"
+						color="#831183"
+					>
+						asanas with mindfulness
+					</Text>
+					<Button text-align="left">
+						Contact Me
+					</Button>
+					<Input />
 				</StackItem>
-				<StackItem md-width="100%" />
+				<StackItem width="50%" lg-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Stack>
+						<StackItem width="100%" lg-width="33.3%" md-width="100%">
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1575999080555-3f7a698dd8d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80) center/cover" />
+						</StackItem>
+						<StackItem width="50%" lg-width="33.3%" md-width="50%" sm-width="100%">
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1577315734214-4b3dec92d9ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80) center/cover" />
+						</StackItem>
+						<StackItem width="50%" lg-width="33.3%" md-width="50%" sm-width="100%">
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1575999502951-4ab25b5ca889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80) center/cover" />
+						</StackItem>
+					</Stack>
+				</StackItem>
 			</Stack>
 		</Section>
+		<Text font="16px " />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
