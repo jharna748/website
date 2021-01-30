@@ -220,7 +220,7 @@ export default (() => {
 				color="--grey"
 				hover-color="--primary"
 			>
-				rituyoga09@gmail.com
+				rituyoga08@gmail.com
 			</Link>
 		</Section>
 		<Link
