@@ -38,7 +38,8 @@ export default {
 		"styles": {},
 		"seo": {
 			"title": "Ritu Bhandari",
-			"description": "Yoga Teacher's website"
+			"description": "Yoga Teacher's website",
+			"og:image": "https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(5).jpg?v=2021-01-28T08:21:59.647Z"
 		}
 	}
 }
