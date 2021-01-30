@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Em, Span, Input, Hr } from "@quarkly/widgets";
+import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -79,32 +79,102 @@ export default (() => {
 					</Text>
 				</Box>
 			</Section>
-			<Section color="--dark" background="linear-gradient(0deg,rgba(0,0,0,0) 100%,#ffffff 100%),rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(3).jpg?v=2021-01-28T08:22:42.895Z) 0% 0% /auto repeat scroll padding-box" opacity="0.7" />
-			<Section
-				padding="60px 0"
-				sm-padding="40px 0"
-				background="--color-light"
-				display="flex"
-				flex-direction="column"
-			>
-				<Box
-					margin="36px 0 0 0"
-					padding="0 0 0 54px"
-					sm-padding="54px 0 0 0"
-					position="relative"
-					max-width="800px"
-				>
-					<Text as="p" font="--headline3" margin="10px 0" color="--orange">
-						I love interacting with people of diverse ages and backgrounds, especially children and older people.{" "}
-						<br />
-						I'm also a traveller, trekker, cyclist and always looking for good company around.
+			<Stack>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
+						asanas and pranayama make you alert{" "}
 					</Text>
-				</Box>
-			</Section>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#0da3e2">
+						calm & focused
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+			<Stack>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
+						{"  "}corrects poor posture
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
+						bringing balance and endurance
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+			<Stack>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"                                   "}builds better body image
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#a75a08">
+						through weight loss and weight gain
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+			<Stack>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block" color="#10f06b">
+						{"   "}adds willpower and stamina
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#ca18d1">
+						balance and patience{" "}
+						<br />
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+			<Stack>
+				{"    "}
+				<StackItem width="50%" display="flex" color="#531af8">
+					{"        "}
+					<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
+						treats anxiety and depression
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
+						making you sturdy and strong
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
 		</Section>
 		<Section background="--color-darkL2" padding="64px 0" sm-padding="40px 0">
+			<Override slot="SectionContent" background="rgba(0, 0, 0, 0) url() 0% 0% /auto repeat scroll padding-box" />
 			<Stack>
-				<StackItem width="50%" lg-width="100%">
+				<StackItem width="50%" lg-width="100%" background="#64b8b2">
 					<Override
 						slot="StackItemContent"
 						color="--dark"
@@ -131,152 +201,32 @@ export default (() => {
 					>
 						asanas with mindfulness
 					</Text>
-					<Text color="#e614a0" font="32px --fontFamily-serifTimes">
+					<Text font="28px --fontFamily-mono">
+						Hi!{" "}
 						<br />
-						corrects poor posture,
+						I'm Ritu, teaching and learning yoga for last 2 decades.
 						<br />
+						{"\n"}I love interacting with people of diverse ages and backgrounds, especially children and older people.{" "}
 						<br />
-						makes you sturdy and strong,
-						<br />
-						<br />
-						treats anxiety and depression,
-						<br />
-						<br />
-						building better body-image through weight loss or weight gain;.
-						<br />
-						<br />
-						bringing balance and discipline to your life.
-						<br />
-						<br />
-						Mindfulness comes through the practice of various{" "}
-						<br />
-						<Em
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							yog asanas....
-						</Em>
-						<Span
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							building a person's willpower
-							<br />
-							Yoga cultivates body and mind together, in a fast, adaptable way.{" "}
-							<br />
-							<br />
-							Yoga is never slow.
-							<br />
-							<br />
-							Doing yog asanas tests and builds endurance, strength and the power of  patience in{" "}
-							<br />
-						</Span>
-						<br />
-						<br />
+						I'm also a traveller, trekker, cyclist and always looking for good company around.{"\n\n"}
 					</Text>
-					<Input />
 				</StackItem>
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
 						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1575999080555-3f7a698dd8d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80) center/cover" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.58.43%20PM.jpeg?v=2021-01-17T07:26:15.986Z) center/cover" />
 						</StackItem>
 						<StackItem width="50%" lg-width="33.3%" md-width="50%" sm-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1577315734214-4b3dec92d9ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80) center/cover" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/ritu%20ji.jpeg?v=2021-01-30T06:51:05.642Z) center/cover" />
 						</StackItem>
 						<StackItem width="50%" lg-width="33.3%" md-width="50%" sm-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1575999502951-4ab25b5ca889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80) center/cover" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%205.14.43%20PM.jpeg?v=2021-01-30T07:08:06.868Z) center/cover" />
 						</StackItem>
 					</Stack>
 				</StackItem>
 			</Stack>
 		</Section>
-		<Text font="16px " />
-		<Hr />
-		<Stack>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
-					{"                        "}corrects poor posture
-				</Text>
-				{"    "}
-			</StackItem>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
-					bringing balance and endurance
-				</Text>
-				{"    "}
-			</StackItem>
-		</Stack>
-		<Stack>
-			{"    "}
-			<StackItem width="50%" display="flex" color="#531af8">
-				{"        "}
-				<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
-					treats anxiety and depression
-				</Text>
-				{"    "}
-			</StackItem>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
-					making you sturdy and strong
-				</Text>
-				{"    "}
-			</StackItem>
-		</Stack>
-		<Stack>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-					{"                                   "}builds better body image
-				</Text>
-				{"    "}
-			</StackItem>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#a75a08">
-					through weight loss and weight gain
-				</Text>
-				{"    "}
-			</StackItem>
-		</Stack>
-		<Stack>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block" color="#10f06b">
-					{"   "}adds willpower and stamina
-				</Text>
-				{"    "}
-			</StackItem>
-			{"    "}
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#ca18d1">
-					balance and patience{" "}
-					<br />
-				</Text>
-				{"    "}
-			</StackItem>
-		</Stack>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

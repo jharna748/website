@@ -6,8 +6,8 @@ export default {
 			"name": "root",
 			"children": [
 				"6003de9bdaacc2001e8f7c5e",
-				"6003de9bdaacc2001e8f7c5c",
-				"600515daae0c05001e8790f7"
+				"600515daae0c05001e8790f7",
+				"6003de9bdaacc2001e8f7c5c"
 			]
 		},
 		"6003de9bdaacc2001e8f7c5c": {
