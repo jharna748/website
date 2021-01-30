@@ -58,7 +58,7 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Section padding="140px 0" sm-padding="40px 0" position="static" background="#afa7c3">
+		<Section padding="140px 0" sm-padding="40px 0" position="static" background="#ffffff">
 			<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.47.34%20PM.jpeg?v=2021-01-18T05:25:36.346Z) center/cover">
 				<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 					<Text
@@ -89,42 +89,23 @@ export default (() => {
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#0da3e2">
-						calm & focused
-					</Text>
-					{"    "}
-				</StackItem>
 			</Stack>
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#0da3e2">
+					calm & focused
+				</Text>
+				{"    "}
+			</StackItem>
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+					{"                                   "}builds better body image
+				</Text>
+				{"    "}
+			</StackItem>
 			<Stack>
-				{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
-						{"  "}corrects poor posture
-					</Text>
-					{"    "}
-				</StackItem>
-				{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
-						bringing balance and endurance
-					</Text>
-					{"    "}
-				</StackItem>
-			</Stack>
-			<Stack>
-				{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"                                   "}builds better body image
-					</Text>
-					{"    "}
-				</StackItem>
-				{"    "}
+				{"    "}{"    "}
 				<StackItem width="50%" display="flex">
 					{"        "}
 					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#a75a08">
@@ -138,38 +119,56 @@ export default (() => {
 				<StackItem width="50%" display="flex">
 					{"        "}
 					<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block" color="#10f06b">
-						{"   "}adds willpower and stamina
+						{"   "}adds willpower
 					</Text>
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#ca18d1">
-						balance and patience{" "}
-						<br />
-					</Text>
-					{"    "}
-				</StackItem>
 			</Stack>
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#ca18d1">
+					balance and patience{" "}
+					<br />
+				</Text>
+				{"    "}
+			</StackItem>
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
+					making you sturdy and strong
+				</Text>
+				{"    "}
+			</StackItem>
 			<Stack>
 				{"    "}
 				<StackItem width="50%" display="flex" color="#531af8">
 					{"        "}
 					<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
-						treats anxiety and depression
+						treats anxiety
 					</Text>
 					{"    "}
 				</StackItem>
 				{"    "}
+			</Stack>
+			<Stack>
+				{"    "}
 				<StackItem width="50%" display="flex">
 					{"        "}
-					<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
-						making you sturdy and strong
+					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
+						{"  "}corrects poor posture
 					</Text>
 					{"    "}
 				</StackItem>
+				{"    "}
 			</Stack>
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
+					bringing balance and endurance
+				</Text>
+				{"    "}
+			</StackItem>
 		</Section>
 		<Section background="--color-darkL2" padding="64px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" background="rgba(0, 0, 0, 0) url() 0% 0% /auto repeat scroll padding-box" />
