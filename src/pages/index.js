@@ -30,7 +30,7 @@ export default (() => {
 					font="--lead"
 					color="#de0ad6"
 				>
-					Ritu Bhandari
+					Ritu Yoga
 				</Text>
 				<Menu
 					display="flex"

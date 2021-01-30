@@ -1,8 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
+import { Override, Menu, Section } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
@@ -13,6 +14,67 @@ export default (() => {
 			<meta name={"description"} content={"Yoga Teacher's website"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
+		<Section>
+			<Box
+				display="flex"
+				padding="12px 0"
+				justify-content="space-between"
+				align-items="center"
+				flex-direction="row"
+				md-flex-direction="column"
+			>
+				<Text
+					margin="0"
+					md-margin="0px 0 20px 0"
+					text-align="left"
+					font="--lead"
+					color="#b808f6"
+				>
+					Ritu Yoga
+				</Text>
+				<Menu
+					display="flex"
+					justify-content="center"
+					font="--base"
+					font-weight="700"
+					md-flex-direction="column"
+					md-align-items="center"
+				>
+					<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
+					<Override slot="link-active" color="--primary" />
+					<Override slot="item" padding="6px" />
+					<Override slot="link-index">
+						home
+					</Override>
+				</Menu>
+			</Box>
+		</Section>
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%205.14.43%20PM.jpeg?v=2021-01-30T07:08:06.868Z) center/cover">
+			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+				<Text
+					as="h4"
+					font="--base"
+					color="--grey"
+					letter-spacing="1px"
+					text-transform="uppercase"
+					margin="6px 0"
+				>
+					dr. achala arya
+				</Text>
+				<Text as="h2" font="--headline3" margin="0 0 12px 0" color="#107eec">
+					Perseverant
+Confident{"\n"}
+					<br />
+					Down-to- earth
+Unconditionally supportive{"\n"}
+					<br />
+					Loyal
+				</Text>
+				<Text font="--base">
+					My name is Achala..{" "}
+				</Text>
+			</Box>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

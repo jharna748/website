@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -28,9 +28,9 @@ export default (() => {
 					md-margin="0px 0 20px 0"
 					text-align="left"
 					font="--lead"
-					color="#6e09ed"
+					color="#9510e4"
 				>
-					Ritu Bhandari
+					Ritu Yoga
 				</Text>
 				<Menu
 					display="flex"
@@ -125,14 +125,46 @@ export default (() => {
 							panchkarma is for cleansing, detox and purification.
 						</Text>
 						<Text>
-							Ayurveda and panchkarma teach that the balance of three subtle energies, vata, pitta, and kapha, maintain health.
-these energies account for all forms of matter (kapha), the force and direction they move (vata), and the transformations they go through (pita).
-ayurveda brings these forces into harmony to promote physical, emotional and spiritual growth.
+							Ayurveda and{" "}
+							<Em>
+								panchkarma{" "}
+							</Em>
+							teach that the balance of three subtle energies,{" "}
+							<Em>
+								vata
+							</Em>
+							,{" "}
+							<Em>
+								pitta
+							</Em>
+							, and{" "}
+							<Em>
+								kapha
+							</Em>
+							, maintain health. These energies account for all forms of matter (
+							<Em>
+								kapha
+							</Em>
+							), the force and direction they move (
+							<Em>
+								vata
+							</Em>
+							), and the transformations they go through (
+							<Em>
+								pita
+							</Em>
+							).{"\n"}
+							<Em>
+								ayurveda
+							</Em>
+							{" "}brings these forces into harmony to promote physical, emotional and spiritual growth.
 							<br />
 							<br />
 							<br />
-							Panchkarma is based on the theory that the whole universe is composed of the five elements - air, water, earth, fire and ether (sky).
-purification method for fleshing out of the stagnant and abnormally accumulated metabolites and endotoxins, thereby making system clean and fresh...this is a detoxification treatment..................{" "}
+							<Em>
+								panchkarma
+							</Em>
+							{" "}is based on the theory that the whole universe is composed of the five elements - air, water, earth, fire and ether (sky). It is a detox and purification method for the fleshing out of the stagnant and abnormally accumulated metabolites and endotoxins, thereby making the system clean and fresh.
 						</Text>
 					</StackItem>
 				</Stack>
