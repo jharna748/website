@@ -79,96 +79,68 @@ export default (() => {
 					</Text>
 				</Box>
 			</Section>
-			<Stack>
-				{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
-						asanas and pranayama make you alert{" "}
+		</Section>
+		<Section
+			padding="60px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Text
+				font="--base"
+				text-transform="uppercase"
+				letter-spacing="1px"
+				max-width="850px"
+				color="--grey"
+				margin="0px"
+			>
+				asanas and pranayama
+			</Text>
+			<Text
+				as="h1"
+				margin="8px 0px 32px"
+				font="--headline1"
+				md-font="--headline2"
+				color="--green"
+				max-width="850px"
+			>
+				build mindfulness
+			</Text>
+			<Stack margin-top="auto" color="--grey" font="--base">
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px">
+						makes you alert, calm & focused
+						<br />
+						add willpower, balance and patience
+						<br />
+						build endurance and strenth
+						<br />
+						make you sturdy and strong
 					</Text>
-					{"    "}
 				</StackItem>
-				{"    "}
-			</Stack>
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#0da3e2">
-					calm & focused
-				</Text>
-				{"    "}
-			</StackItem>
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-					{"                                   "}builds better body image
-				</Text>
-				{"    "}
-			</StackItem>
-			<Stack>
-				{"    "}{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#a75a08">
-						through weight loss and weight gain
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px">
+						make you sturdy and strong, correcting poor posture, helping improve body image through weight loss or weight gain, build flexibility.
 					</Text>
-					{"    "}
 				</StackItem>
-			</Stack>
-			<Stack>
-				{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block" color="#10f06b">
-						{"   "}adds willpower
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px">
+						treat anxiety & depression
+						<br />
+						bring about oneness of body and mind.
 					</Text>
-					{"    "}
 				</StackItem>
-				{"    "}
-			</Stack>
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#ca18d1">
-					balance and patience{" "}
-					<br />
-				</Text>
-				{"    "}
-			</StackItem>
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
-					making you sturdy and strong
-				</Text>
-				{"    "}
-			</StackItem>
-			<Stack>
-				{"    "}
-				<StackItem width="50%" display="flex" color="#531af8">
-					{"        "}
-					<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
-						treats anxiety
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px">
+						"What does containment and freedom look like in asana?  What patterns and sequence of patterns lead to silence? How can the pairing of opposites weave together into the seat of meditation? When the dialogue retracts towards center and the observer is consumed by listening what remains is great space and peace. Come join us in looking at the asana and pranayama practice from these vantage points. "
+
+- https://www.yeeyoga.com/
 					</Text>
-					{"    "}
 				</StackItem>
-				{"    "}
 			</Stack>
-			<Stack>
-				{"    "}
-				<StackItem width="50%" display="flex">
-					{"        "}
-					<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
-						{"  "}corrects poor posture
-					</Text>
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-			<StackItem width="50%" display="flex">
-				{"        "}
-				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
-					bringing balance and endurance
-				</Text>
-				{"    "}
-			</StackItem>
 		</Section>
 		<Section background="--color-darkL2" padding="64px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" background="rgba(0, 0, 0, 0) url() 0% 0% /auto repeat scroll padding-box" />
