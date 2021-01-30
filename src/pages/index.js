@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Button, Input } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Em, Span, Input, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -58,8 +58,8 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Section padding="140px 0" sm-padding="40px 0" position="static">
-			<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/ritu%20ji.jpeg?v=2021-01-30T06:51:05.642Z) center/cover">
+		<Section padding="140px 0" sm-padding="40px 0" position="static" background="#afa7c3">
+			<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.47.34%20PM.jpeg?v=2021-01-18T05:25:36.346Z) center/cover">
 				<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 					<Text
 						as="h4"
@@ -131,9 +131,59 @@ export default (() => {
 					>
 						asanas with mindfulness
 					</Text>
-					<Button text-align="left">
-						Contact Me
-					</Button>
+					<Text color="#e614a0" font="32px --fontFamily-serifTimes">
+						<br />
+						corrects poor posture,
+						<br />
+						<br />
+						makes you sturdy and strong,
+						<br />
+						<br />
+						treats anxiety and depression,
+						<br />
+						<br />
+						building better body-image through weight loss or weight gain;.
+						<br />
+						<br />
+						bringing balance and discipline to your life.
+						<br />
+						<br />
+						Mindfulness comes through the practice of various{" "}
+						<br />
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							yog asanas....
+						</Em>
+						<Span
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							building a person's willpower
+							<br />
+							Yoga cultivates body and mind together, in a fast, adaptable way.{" "}
+							<br />
+							<br />
+							Yoga is never slow.
+							<br />
+							<br />
+							Doing yog asanas tests and builds endurance, strength and the power of  patience in{" "}
+							<br />
+						</Span>
+						<br />
+						<br />
+					</Text>
 					<Input />
 				</StackItem>
 				<StackItem width="50%" lg-width="100%">
@@ -153,6 +203,80 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Text font="16px " />
+		<Hr />
+		<Stack>
+			{"    "}
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
+					{"                        "}corrects poor posture
+				</Text>
+				{"    "}
+			</StackItem>
+			{"    "}
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block">
+					bringing balance and endurance
+				</Text>
+				{"    "}
+			</StackItem>
+		</Stack>
+		<Stack>
+			{"    "}
+			<StackItem width="50%" display="flex" color="#531af8">
+				{"        "}
+				<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
+					treats anxiety and depression
+				</Text>
+				{"    "}
+			</StackItem>
+			{"    "}
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block">
+					making you sturdy and strong
+				</Text>
+				{"    "}
+			</StackItem>
+		</Stack>
+		<Stack>
+			{"    "}
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+					{"                                   "}builds better body image
+				</Text>
+				{"    "}
+			</StackItem>
+			{"    "}
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#a75a08">
+					through weight loss and weight gain
+				</Text>
+				{"    "}
+			</StackItem>
+		</Stack>
+		<Stack>
+			{"    "}
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline2" margin="0px 0px 0px 0px" display="inline-block" color="#10f06b">
+					{"   "}adds willpower and stamina
+				</Text>
+				{"    "}
+			</StackItem>
+			{"    "}
+			<StackItem width="50%" display="flex">
+				{"        "}
+				<Text font="--headline3" margin="0px 0px 0px 0px" display="inline-block" color="#ca18d1">
+					balance and patience{" "}
+					<br />
+				</Text>
+				{"    "}
+			</StackItem>
+		</Stack>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
