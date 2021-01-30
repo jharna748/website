@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Icon, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Em, Text, Box, Icon, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack, Formspree } from "@quarkly/components";
@@ -25,8 +25,16 @@ export default (() => {
 				flex-direction="row"
 				md-flex-direction="column"
 			>
-				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
-					Ritu Yoga
+				<Text
+					margin="0"
+					md-margin="0px 0 20px 0"
+					text-align="left"
+					font="--lead"
+					color="#de0ad6"
+				>
+					<Em>
+						yog with ritu bhandari
+					</Em>
 				</Text>
 				<Menu
 					display="flex"

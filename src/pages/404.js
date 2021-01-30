@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Em, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section } from "@quarkly/components";
@@ -29,9 +29,19 @@ export default (() => {
 					md-margin="0px 0 20px 0"
 					text-align="left"
 					font="--lead"
-					color="#b808f6"
+					color="#de0ad6"
 				>
-					Ritu Yoga
+					<Em
+						data-q-widget-type="PRIMITIVE"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						yog with ritu bhandari
+					</Em>
 				</Text>
 				<Menu
 					display="flex"

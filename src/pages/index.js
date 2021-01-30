@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Em, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -30,8 +30,11 @@ export default (() => {
 					text-align="left"
 					font="--lead"
 					color="#de0ad6"
+					text-decoration-line="underline"
 				>
-					Ritu Yoga
+					<Em>
+						yog with ritu bhandari
+					</Em>
 				</Text>
 				<Menu
 					display="flex"
