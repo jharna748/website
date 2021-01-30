@@ -220,7 +220,7 @@ export default (() => {
 				</Override>
 			</Menu>
 			<Link
-				href="mailto:hello@company.com"
+				href="mailto:rituyoga08@gmail.com"
 				text-decoration-line="none"
 				variant="--base"
 				color="--grey"
