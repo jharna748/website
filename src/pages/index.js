@@ -115,33 +115,68 @@ export default (() => {
 			</Text>
 			<Stack margin-top="auto" color="--grey" font="--base">
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
+					<Text margin="0px" color="#de0ad6">
 						makes you alert, calm & focused
 						<br />
-						add willpower, balance and patience
+						adds willpower, balance and patience
 						<br />
-						build endurance and strenth
-						<br />
-						make you sturdy and strong
+						builds{" "}
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							endurance
+						</Em>
+						{" "}and{" "}
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							flexibility.
+						</Em>
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						make you sturdy and strong, correcting poor posture, helping improve body image through weight loss or weight gain, build flexibility.
-					</Text>
-				</StackItem>
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						treat anxiety & depression
+					<Text margin="0px" color="#f94a0f">
+						makes you sturdy and strong,{" "}
 						<br />
-						bring about oneness of body and mind.
+						corrects poor posture,{" "}
+						<br />
+						improves and maintains body image{" "}
+						<br />
+						through{" "}
+						<Em>
+							consistency.
+						</Em>
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						"What does containment and freedom look like in asana?  What patterns and sequence of patterns lead to silence? How can the pairing of opposites weave together into the seat of meditation? When the dialogue retracts towards center and the observer is consumed by listening what remains is great space and peace. Come join us in looking at the asana and pranayama practice from these vantage points. "
-
-- https://www.yeeyoga.com/
+					<Text margin="0px" color="#de0ad6">
+						treats anxiety & depression,
+						<br />
+						brings about oneness of body and mind.
+					</Text>
+				</StackItem>
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px" color="#0a68ec">
+						asanas improve concentration and relieve tensions of the body and mind.
+						<br />
+						doing asanas with awareness and patience is{" "}
+						<Em>
+							dynamic meditation
+						</Em>
+						.
+						<br />
 					</Text>
 				</StackItem>
 			</Stack>

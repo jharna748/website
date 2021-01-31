@@ -152,6 +152,6 @@ export default {
 			}
 		}
 	},
-	"version": 2,
-	"fonts": {}
+	"fonts": {},
+	"version": 6
 }
