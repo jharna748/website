@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Em, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Text, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -24,17 +24,7 @@ export default (() => {
 				flex-direction="row"
 				md-flex-direction="column"
 			>
-				<Text
-					margin="0"
-					md-margin="0px 0 20px 0"
-					text-align="left"
-					font="--lead"
-					color="#de0ad6"
-				>
-					<Em>
-						yog with ritu bhandari
-					</Em>
-				</Text>
+				<Image width="256px" height="256px" src="https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/wellness%20with%20yog%20(1).png?v=2021-02-01T09:46:29.339Z" />
 				<Menu
 					display="flex"
 					justify-content="center"
