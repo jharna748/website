@@ -14,22 +14,35 @@ export default {
 		"6003de9bdaacc2001e8f7c5c": {
 			"id": "6003de9bdaacc2001e8f7c5c",
 			"name": "testimonials",
-			"pageUrl": "404"
+			"pageUrl": "404",
+			"seo": {
+				"title": "Testimonials"
+			}
 		},
 		"6003de9bdaacc2001e8f7c5e": {
 			"id": "6003de9bdaacc2001e8f7c5e",
 			"name": "index",
-			"pageUrl": "index"
+			"pageUrl": "index",
+			"seo": {
+				"title": "Wellness with Yoga",
+				"description": "Wellness with Yoga"
+			}
 		},
 		"600515daae0c05001e8790f7": {
 			"id": "600515daae0c05001e8790f7",
 			"pageUrl": "therapies",
-			"name": "therapies"
+			"name": "therapies",
+			"seo": {
+				"title": "Therapies"
+			}
 		},
 		"60155ecf71e66d001efafe3b": {
 			"id": "60155ecf71e66d001efafe3b",
 			"pageUrl": "contact-me",
-			"name": "contact me"
+			"name": "contact me",
+			"seo": {
+				"title": "Contact"
+			}
 		}
 	},
 	"mode": "production",

@@ -9,9 +9,9 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Ritu Bhandari
+				Wellness with Yoga
 			</title>
-			<meta name={"description"} content={"Yoga Teacher's website"} />
+			<meta name={"description"} content={"Wellness with Yoga"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(5).jpg?v=2021-01-28T08:21:59.647Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
