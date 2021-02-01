@@ -48,7 +48,7 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%205.14.43%20PM.jpeg?v=2021-01-30T07:08:06.868Z) center/cover">
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%205.13.22%20PM.jpeg?v=2021-01-17T07:15:03.710Z) center/cover">
 			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text
 					as="h4"
