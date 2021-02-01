@@ -32,8 +32,16 @@ export default (() => {
 					color="#de0ad6"
 					text-decoration-line="underline"
 				>
-					<Em>
-						yog with ritu bhandari
+					<Em
+						data-q-widget-type="PRIMITIVE"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						wellness with yog
 					</Em>
 				</Text>
 				<Menu
@@ -89,7 +97,7 @@ export default (() => {
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
-			background="--color-light"
+			background="--color-light url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/images%20(5).jpg?v=2021-01-28T08:21:59.647Z)"
 			display="flex"
 			flex-direction="column"
 		>
@@ -164,7 +172,11 @@ export default (() => {
 					<Text margin="0px" color="#de0ad6">
 						treats anxiety & depression,
 						<br />
-						brings about oneness of body and mind.
+						brings about{" "}
+						<Em>
+							oneness
+						</Em>
+						{" "}of body and mind.
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="50%" sm-width="100%">
