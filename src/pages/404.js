@@ -69,9 +69,7 @@ Unconditionally supportive{"\n"}
 					<br />
 					Loyal
 				</Text>
-				<Text font="--base">
-					My name is Achala..{" "}
-				</Text>
+				<Text font="--base" />
 			</Box>
 		</Section>
 		<Section
