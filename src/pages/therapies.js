@@ -24,7 +24,7 @@ export default (() => {
 				flex-direction="row"
 				md-flex-direction="column"
 			>
-				<Image width="256px" height="256px" src="https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/wellness%20with%20yog%20(3).png?v=2021-02-01T15:08:30.635Z" />
+				<Image width="256px" height="256px" src="https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/wellness%20with%20yog%20(5).png?v=2021-02-02T07:35:35.236Z" />
 				<Menu
 					display="flex"
 					justify-content="center"
