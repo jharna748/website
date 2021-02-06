@@ -73,6 +73,66 @@ Unconditionally supportive{"\n"}
 			</Box>
 		</Section>
 		<Section
+			padding="60px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Text
+				font="--base"
+				text-transform="uppercase"
+				letter-spacing="1px"
+				max-width="850px"
+				color="--grey"
+				margin="0px"
+			>
+				manu chhabra, ajmer
+			</Text>
+			<Text
+				as="h1"
+				margin="8px 0px 32px"
+				font="--headline3"
+				md-font="--headline2"
+				color="--green"
+				max-width="850px"
+			>
+				Hi, my name is Manu Chhabra. I joined Ritu Ma'am's yoga class two months back. I'm a Rheumatoid Arthritis patient. I have undergone three replacement surgeries. Although I could move around without difficulty, yet there were many things I was scared of even trying out. Ritu Ma'am's positive words, motivation and yoga has instilled much needed optimism in me. I'm extremely satisfied and happy with her work.{"\n\n"}
+			</Text>
+		</Section>
+		<Section
+			padding="60px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Text
+				font="--base"
+				text-transform="uppercase"
+				letter-spacing="1px"
+				max-width="850px"
+				color="--grey"
+				margin="0px"
+			>
+				sasha mosky, canada
+			</Text>
+			<Text
+				as="h1"
+				margin="8px 0px 32px"
+				font="--headline3"
+				md-font="--headline2"
+				color="--primary"
+				max-width="850px"
+			>
+				Ritu's approach to teaching is rooted in compassion, kindness, and exploration. Through yoga sessions with Ritu, I have developed both physical and mental confidence, strength, and flexibility. Ritu approaches teaching with patience, humour, and encourages her students to try new things while also respecting limits and boundaries. She is thoughtful, dedicated to her practice, and I have learned a lot from her since we first met in 2017. Thank you Ritu!{"\n\n"}
+			</Text>
+		</Section>
+		<Section
 			background-color="--dark"
 			text-align="center"
 			padding="32px 0"
@@ -108,6 +168,7 @@ Unconditionally supportive{"\n"}
 				rituyoga08@gmail.com
 			</Link>
 		</Section>
+		<Section />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
