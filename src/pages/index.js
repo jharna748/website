@@ -68,7 +68,7 @@ export default (() => {
 						Yoga to attain excellence
 					</Text>
 					<Text font="--base" color="#1175da">
-						All-round fitness is about flexibility, speed, stamina, strength and power. It is also about motivation, focus, concentration and alertness. Yoga helps in achieveing emotional, mental and physical stability and tranquility in life.
+						All-round fitness is about flexibility, speed, stamina, strength and power. It is also about motivation, focus, concentration and alertness. Yoga helps in achieving emotional, mental and physical stability and tranquility in life.
 					</Text>
 				</Box>
 			</Section>
@@ -207,35 +207,79 @@ export default (() => {
 					<Text font="20px --fontFamily-mono" color="#0c83f9">
 						Hi!{" "}
 						<br />
-						I'm Ritu, teaching and learning yoga for last 2 decades.
+						I'm Ritu, teaching and learning yoga for last 2 decades
 						<br />
-						{"\n"}I love interacting with people of diverse ages and backgrounds, especially children and older people.{" "}
 						<br />
-						I'm also a traveller, trekker, cyclist and always looking for good company around.{"\n\n"}
+						.. love interacting with people of diverse ages and backgrounds, especially children and older people
+						<br />
+						<br />
+						.. also a traveller, trekker, cyclist and always looking for good company around.{"\n\n"}
 					</Text>
 					<Text font="20px mono" color="#0cbf4f">
-						I'm a full-time yoga teacher at Mayo College Girls' School (MCGS).
+						.. full-time yoga teacher at Mayo College Girls' School (MCGS).
 						<br />
-						Educationally, I completed my M.A. in Yoga Education years ago. I have a diploma in naturopathy (NDDY) from Gandhi National Academy of Naturopathy, Delhi.
+						.. completed my M.A. in Yoga Education years ago,
 						<br />
-						I'm also certified in{" "}
-						<Em>
+						.. a diploma in naturopathy (NDDY) from Gandhi National Academy of Naturopathy, Delhi.
+						<br />
+						.. certified in{" "}
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							karate
 						</Em>
 						,{" "}
-						<Em>
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							reiki
 						</Em>
 						,{" "}
-						<Em>
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							pranic healing
 						</Em>
 						,{" "}
-						<Em>
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							ayurveda
 						</Em>
 						{" "}and{" "}
-						<Em>
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							panchkarma
 						</Em>
 						{" "}(School of Ayurveda & Panchakarma).
