@@ -204,7 +204,7 @@ export default (() => {
 					>
 						asanas with mindfulness
 					</Text>
-					<Text font="28px --fontFamily-mono">
+					<Text font="20px --fontFamily-mono" color="#0c83f9">
 						Hi!{" "}
 						<br />
 						I'm Ritu, teaching and learning yoga for last 2 decades.
@@ -218,13 +218,13 @@ export default (() => {
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
 						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%204.58.43%20PM.jpeg?v=2021-01-17T07:26:15.986Z) center/cover" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1612626256147-08018dd22040?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000) center/cover" />
 						</StackItem>
 						<StackItem width="50%" lg-width="33.3%" md-width="50%" sm-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/ritu%20ji.jpeg?v=2021-01-30T06:51:05.642Z) center/cover" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/vlcsnap-error422.png?v=2021-02-07T08:25:15.668Z) center/cover" />
 						</StackItem>
 						<StackItem width="50%" lg-width="33.3%" md-width="50%" sm-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/WhatsApp%20Image%202021-01-11%20at%205.14.43%20PM.jpeg?v=2021-01-30T07:08:06.868Z) center/cover" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6003de9bdaacc2001e8f7c59/images/vlcsnap-error859.png?v=2021-02-07T08:23:56.047Z) center/cover" />
 						</StackItem>
 					</Stack>
 				</StackItem>
