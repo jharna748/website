@@ -213,6 +213,33 @@ export default (() => {
 						<br />
 						I'm also a traveller, trekker, cyclist and always looking for good company around.{"\n\n"}
 					</Text>
+					<Text font="20px mono" color="#0cbf4f">
+						I'm a full-time yoga teacher at Mayo College Girls' School (MCGS).
+						<br />
+						Educationally, I completed my M.A. in Yoga Education years ago. I have a diploma in naturopathy (NDDY) from Gandhi National Academy of Naturopathy, Delhi.
+						<br />
+						I'm also certified in{" "}
+						<Em>
+							karate
+						</Em>
+						,{" "}
+						<Em>
+							reiki
+						</Em>
+						,{" "}
+						<Em>
+							pranic healing
+						</Em>
+						,{" "}
+						<Em>
+							ayurveda
+						</Em>
+						{" "}and{" "}
+						<Em>
+							panchkarma
+						</Em>
+						{" "}(School of Ayurveda & Panchakarma).
+					</Text>
 				</StackItem>
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
